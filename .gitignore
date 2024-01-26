@@ -1,0 +1,48 @@
+# Ignore compiled files
+*.class
+*.war
+*.ear
+*.jar
+
+# Ignore temporary files
+*~
+*.swp
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.log.*
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore compiled Java files
+target/
+
+# Ignore compiled C files
+*.out
+*.o
+
+# Ignore IDE-specific files and folders
+.idea/
+.vscode/
+
+# Ignore configuration files
+*.config
+
+# Ignore sensitive or private information
+secrets.json
